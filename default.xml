@@ -23,11 +23,11 @@
   <remote  name="omnirom-fixes"
            fetch="https://github.com/omnirom-fixes" />
 
-  <project path="build" name="android_build" remote="omnirom" revision="android-6.0" groups="pdk" >
+  <project path="build" name="android_build" remote="omnirom-fixes" revision="android-6.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="android" remote="omnirom" revision="android-6.0" />
+  <project path="android" name="android" remote="omnirom-fixes" revision="android-6.0" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="android_art" remote="omnirom" revision="android-6.0" groups="pdk" />
   <project path="bionic" name="android_bionic" remote="omnirom" revision="android-6.0" groups="pdk" />
