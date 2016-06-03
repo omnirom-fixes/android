@@ -2,7 +2,7 @@
 ---------------
 
 To get started with OMNI ROM, you'll need to get
-familiar with [Git and Repo](http://source.android.com/download/using-repo).
+familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the OMNIROM trees, use a command like this:
 
