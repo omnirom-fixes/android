@@ -15,7 +15,7 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
 
-  <default revision="refs/tags/android-6.0.1_r46"
+  <default revision="refs/tags/android-6.0.1_r54"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
@@ -86,7 +86,7 @@
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk-fs" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/dhcpcd" name="android_external_dhcpcd" remote="omnirom" revision="android-6.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/donuts" name="platform/external/donuts" groups="pdk-fs" />
